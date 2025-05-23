@@ -16,7 +16,7 @@ services:
   django_app:
     
        
-    image: dock2o/notes-app
+    image: dock2o/notes-app 
     container_name: "django_cont"
     ports:
       - "8000:8000"
